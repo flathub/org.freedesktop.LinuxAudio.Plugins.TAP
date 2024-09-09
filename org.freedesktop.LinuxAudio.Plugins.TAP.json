@@ -62,9 +62,10 @@
             ],
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://github.com/tomszilagyi/tap-plugins/archive/v1.0.1.tar.gz",
-                    "sha256": "89c932bea903589db2717ca4d87013fea404b4123fc71acba5bc7cba18d3ecbb"
+                    "type": "git",
+                    "//": "This is the LMMS github mirror as new upstream doesn't support shallow-clone",
+                    "url": "https://github.com/LMMS/tap-plugins.git",
+                    "commit": "85640223047d49a305e90ba1b92303eb066ba474"
                 },
                 {
                     "type": "patch",
